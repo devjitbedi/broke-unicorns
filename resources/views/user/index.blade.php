@@ -87,7 +87,7 @@ $name = "User " . $user->username;
 
              @if (!$companies->isEmpty())     
 
-            <div class = "col-12 ml-4 mb-1 mb-md-2 new-company-title user-company-title">
+            <div class = "col-12 ml-4 mb-1 mb-md-2 mt-md-5 new-company-title user-company-title">
 
             <p class = ""> Most popular <hr> </p>
 
