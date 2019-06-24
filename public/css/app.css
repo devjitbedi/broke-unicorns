@@ -3,6 +3,12 @@
 body,html,div {
 
 	background-color: white;
+
+}
+
+body,html {
+
+	overflow-x: hidden;
 }
 
 
@@ -190,7 +196,7 @@ background-color: #8e8ece;
 
 .new-company-title {
 
-	margin-top: 60px;
+	
 }
 
 .rating-avg {

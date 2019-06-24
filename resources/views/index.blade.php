@@ -25,9 +25,9 @@ navigate_next
 
     
 
-    <div class = "row cards-container mt-5">
+    <div class = "row cards-container mt-md-5">
 
-  <div class = "col-12 mb-1 mb-md-2 new-company-title">
+  <div class = "col-12 mb-1 mb-md-2 mt-5 new-company-title">
 
     <p class = ""> Welcome our newest unicorns <hr> </p>
 

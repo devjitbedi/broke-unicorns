@@ -1,3 +1,8 @@
+<!-- <head>
+   <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+   <script>tinymce.init({ selector:'textarea' });</script>
+</head> -->
+
 @extends('layout')
 
 @section('title', 'Create Unicorn')
@@ -18,7 +23,7 @@
 
           <label class = "mt-3" for="name">Description</label>
           <small class = "text-danger"> {{$errors->first('description')}} </small>
-          <textarea id = "description" name="description" class="form-control" rows="2" cols="30">{{old('description')}}</textarea>
+          <input type="text" id = "description" name="description" class="form-control" value = "{{old('description')}}">
           
 
           <label class = "mt-3" for="name">Content</label>

@@ -19,9 +19,9 @@ $name = "User " . $user->username;
 
 @section('main')
 
-  <div class = "mt-4">
 
-      <div class = "col-12">
+
+      <div class = "mt-5 col-12">
           	@forelse($users as $user)
 
           	@if ($user->id == $me->id)
@@ -51,7 +51,7 @@ $name = "User " . $user->username;
 
             @if (!$companies->isEmpty())        
 
-           <div class = "col-12 ml-4 mb-1 mb-md-2 new-company-title user-company-title">
+           <div class = "col-12 ml-4 mb-1 mb-md-2 mt-md-5 new-company-title user-company-title">
 
             <p class = ""> Your most popular <hr> </p>
 
@@ -182,7 +182,7 @@ $name = "User " . $user->username;
        @if ($user->id == $me->id)
 
         @if(!$companies->isEmpty())
-<div class = "company-container col-12 col-sm-6 col-md-4 col-lg-3">
+<div class = "company-container mb-4 mb-sm-0 col-12 col-sm-6 col-md-4 col-lg-3">
       <a href="/create" class = "link">
 
       <div class = "company-card text-center">
@@ -200,13 +200,13 @@ $name = "User " . $user->username;
           </div>
            </a>
 
-        </div>
+  </div>
 
         @endif
 
          @if ($user->type == 'admin')
 
-            <div class = "company-container col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class = "company-container mt-4 mt-sm-0 col-12 col-sm-6 col-md-4 col-lg-3">
       <a href="/admin" class = "link">
 
       <div class = "company-card text-center">
@@ -234,16 +234,13 @@ $name = "User " . $user->username;
 
         @endforelse
 
-       
-</div>
 
-
-<div class = "col-12 text-center">
+<div class = "col-12 mt-5 text-center">
             @forelse($users as $user)
 
             @if ($user->id == $me->id)
 
-            <a href = "/logout" class = "btn-logout mb-5 mb-md-0"> Logout <i class="material-icons next-icon-logout">
+            <a href = "/logout" class = "btn-logout mb-3 mb-md-0"> Logout <i class="material-icons next-icon-logout">
 navigate_next
 </i> </a>
 
@@ -257,8 +254,14 @@ navigate_next
              @endforelse
  </div>
 
-
+       
 </div>
+
+
+
+
+
+
 
 
 
