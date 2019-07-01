@@ -252,7 +252,6 @@ body,html {
 	font-size: calc(30px + 2vw);
 	font-weight: 700;
 	font-family: 'Playfair Display', serif;
-	letter-spacing: 0.3px;
 }
 
 .big-title {
@@ -260,7 +259,6 @@ body,html {
 	font-size: calc(25px + 1vw);
 	font-weight: 700;
 	font-family: 'Playfair Display', serif;
-	letter-spacing: 0.3px;
 
 }
 
