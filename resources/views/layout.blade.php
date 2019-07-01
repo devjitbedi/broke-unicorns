@@ -22,9 +22,9 @@
       @if (Auth::check())
         <li class="nav-item">
           @if (Auth::user()->isAdmin())
-          <?php echo '<a href="/user/' . Auth::user()->id . '"' . 'class="nav-link mt-2"> <img src = "/images/GoldHornUnicorn.png" class = "user-logo-alt"> </a>'?>
+          <?php echo '<a href="/user/' . Auth::user()->id . '"' . 'class="nav-link mt-1"> <img src = "/images/GoldHornUnicorn.png" class = "user-logo-alt"> </a>'?>
           @else
-          <?php echo '<a href="/user/' . Auth::user()->id . '"' . 'class="nav-link mt-2"> <img src = "/images/BrokeUnicorn.png" class = "user-logo"> </a>'?>
+          <?php echo '<a href="/user/' . Auth::user()->id . '"' . 'class="nav-link mt-1"> <img src = "/images/BrokeUnicorn.png" class = "user-logo"> </a>'?>
           @endif
         </li>
         
