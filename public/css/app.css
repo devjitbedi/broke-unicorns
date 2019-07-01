@@ -189,7 +189,8 @@ body,html {
 
 .graphics {
 
-	height: 60vh;
+	width: 90%;
+	max-width: 60vh;
 }
 
 .login-graphic {
