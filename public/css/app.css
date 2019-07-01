@@ -171,6 +171,7 @@ body,html {
 .carousel-inner {
    margin-bottom: 150px !important;
    overflow: visible !important;
+   transition: all .4s ease-in-out !important;
 }
 
 .carousel-indicators li {
