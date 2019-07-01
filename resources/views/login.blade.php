@@ -18,6 +18,7 @@
 <div class = "col-12 col-md-7 login-graphic text-center">
    <a href="/" class="ml-2"> <img src="/images/SingleLineLogo.png" class = "login-logo mt-3"></a>
  
+    
        <div id="carouselExampleIndicators" class="carousel" data-ride="false">
           <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -52,9 +53,7 @@
 
         </div>
 
-  
-         
-      </div>
+    </div>
 
 
      
