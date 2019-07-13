@@ -5,7 +5,9 @@ use Auth;
 use DB;
 
 class UserController extends Controller
+
 {
+
   public function index($id)
   {
 

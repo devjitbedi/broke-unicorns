@@ -30,6 +30,19 @@ body,html {
 
 }
 
+
+.signup-logo {
+
+	height: 30px;
+	transition: all .2s ease-in-out;
+	display: inline-block;
+	position: fixed;
+	z-index: 5;
+	top: 16px;
+	left: 22px;
+
+}
+
 .user-logo {
 
 	height: 32px;
@@ -229,6 +242,7 @@ body,html {
 .form-control:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
+
 
 .unicorn-icon-2 {
 
@@ -518,6 +532,12 @@ background-color: #f9f9f9;
 	background-color: #f9f9f9;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 
 
 .umeter {
@@ -777,6 +797,13 @@ margin-top: 10px;
 
 	display: block;
 }
+
+}
+
+
+	@media only screen and (max-width: 767px) {
+
+
 
 .login-graphic {
 

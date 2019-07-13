@@ -16,9 +16,9 @@
 
   <div class = "row">
 <div class = "col-12 col-md-7 login-graphic text-center">
-   <a href="/" class="ml-2"> <img src="/images/SingleLineLogo.png" class = "login-logo mt-3"></a>
+   <a href="/" class="ml-5"> <img src="/images/SingleLineLogo.png" class = "login-logo mt-3"></a>
  
-    
+
        <div id="carouselExampleIndicators" class="carousel" data-ride="false">
           <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -32,21 +32,21 @@
             <img class="graphics" src="/images/BrokeUnicornsInTheNight.png" alt="Broke Unicorn">
              <div class="carousel-caption d-none d-block">
              <h5 class = "black">The Broke Unicorn</h5>
-             <p class = "gray">Baby broke unicorns are created everyday.</p>
+             <p class = "gray">Sad creatures that just need some love.</p>
              </div>
           </div>
           <div class="carousel-item">
             <img class="graphics" src="/images/RichUnicornsInTheNight.png" alt="Rich Unicorn">
             <div class="carousel-caption d-none d-block">
              <h5 class = "black">The Rich Unicorn</h5>
-             <p class = "gray">Some unicorns stay broke and some don't.</p>
+             <p class = "gray">A select few that have earned their status.</p>
              </div>
           </div>
           <div class="carousel-item">
             <img class="graphics" src="/images/GoldHornUnicornInTheNight.png" alt="Gold Horned Unicorn">
             <div class="carousel-caption d-none d-block">
              <h5 class = "black">The Gold Horned Unicorn</h5>
-             <p class = "gray">Although, one unicorn is above the rest.</p>
+             <p class = "gray">The rarest one of all, rumored to not even exist.</p>
              </div>
           </div>
 
@@ -60,15 +60,15 @@
 
 </div>
 <div class = "col-12 col-md-5 mt-5 mb-5 login-text text-center">
-  <a href = "/signup" class = "btn-purple-outline float-right mb-4 mb-md-0"> Sign Up </a>
+  <a href = "/signup" class = "btn-purple-outline float-right mt-2 mb-4 mb-md-0"> Sign Up </a>
   <div class = "clear"> </div>
-  <h2 class = "mt-md-5 mb-md-5 mb-4 big-title text-center">Back to creating.</h2>
+  <h2 class = "mt-md-5 mb-md-5 mb-5 big-title text-center">Back to creating.</h2>
  
   <form method="post">
     @csrf
     <div class="form-group text-left">
       <label for="username" class = "gray">Creator</label>
-      <input type="text" id="username" name="username" class="form-control" placeholder="Pretty sure you know what to put here">
+      <input type="text" id="username" name="username" class="form-control" placeholder="You know what to do">
     </div>
     <div class="form-group text-left">
       <label for="password" class = "gray">Password</label>

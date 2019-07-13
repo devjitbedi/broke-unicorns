@@ -5,6 +5,7 @@ use App\User;
 use Hash;
 use Auth;
 use DB;
+use Validator;
 
 class SignUpController extends Controller
 {
@@ -15,11 +16,28 @@ class SignUpController extends Controller
   }
 
 
-  public function signup()
+  public function signup(Request $request)
   {
+  
+    
+    $input = $input = $request->all();
+    $validation = Validator::make($input, [
+
+      'username' => 'required|min:4|unique:users,username'
+
+    ]);
+
+    if ($validation->fails()) {
+
+      return redirect('/signup')
+      ->withInput()
+      ->withErrors($validation);
+
+    }
+
     $user = new User();
-    $user->username = request('username');
-    $user->password = Hash::make(request('password')); 
+    $user->username = $request->username;
+    $user->password = Hash::make($request->password); 
     $user->save();
     
     Auth::login($user);
