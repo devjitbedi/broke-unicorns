@@ -23,7 +23,8 @@ class SignUpController extends Controller
     $input = $input = $request->all();
     $validation = Validator::make($input, [
 
-      'username' => 'required|min:4|unique:users,username'
+      'username' => 'required|min:4|max:10|unique:users,username',
+      'password' => 'required|min:6'
 
     ]);
 
