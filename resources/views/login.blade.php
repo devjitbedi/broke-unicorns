@@ -46,7 +46,7 @@
             <img class="graphics" src="/images/GoldHornUnicornInTheNight.png" alt="Gold Horned Unicorn">
             <div class="carousel-caption d-none d-block">
              <h5 class = "black">The Gold Horned Unicorn</h5>
-             <p class = "gray">The rarest one of all, rumored to not even exist.</p>
+             <p class = "gray">The rarest of all, rumored to not even exist.</p>
              </div>
           </div>
 
