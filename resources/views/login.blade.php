@@ -16,7 +16,7 @@
 
   <div class = "row">
 <div class = "col-12 col-md-7 login-graphic text-center">
-   <a href="/" class="ml-5"> <img src="/images/SingleLineLogo.png" class = "login-logo mt-3"></a>
+   <a href="/"> <img src="/images/SingleLineLogo.png" class = "login-logo mt-3"></a>
  
 
        <div id="carouselExampleIndicators" class="carousel" data-ride="false">
@@ -62,7 +62,7 @@
 <div class = "col-12 col-md-5 mt-5 mb-5 login-text text-center">
   <a href = "/signup" class = "btn-purple-outline float-right mt-2 mb-4 mb-md-0"> Sign Up </a>
   <div class = "clear"> </div>
-  <h2 class = "mt-md-5 mb-md-5 mb-5 big-title text-center">Back to creating.</h2>
+  <h2 class = "mt-md-5 mb-md-5 mb-4 big-title text-center">Back to creating.</h2>
  
   <form method="post">
     @csrf

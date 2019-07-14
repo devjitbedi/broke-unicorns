@@ -96,7 +96,6 @@ body,html {
 	padding: 17px;
 	padding-left: 23px;
 	padding-right: 23px;
-	letter-spacing: 1px;
 	position: relative;
 	top: 30px;
 	transition: all .2s ease-in-out;
@@ -121,7 +120,7 @@ body,html {
 	padding: 11px;
 	padding-left: 23px;
 	padding-right: 23px;
-	letter-spacing: 1px;
+
 	width: 100%;
 	transition: all .2s ease-in-out;
 
@@ -145,7 +144,7 @@ body,html {
 	padding: 7px;
 	padding-left: 23px;
 	padding-right: 23px;
-	letter-spacing: 1px;
+
 	transition: all .2s ease-in-out;
 	font-weight: bold;
 
@@ -808,6 +807,15 @@ margin-top: 10px;
 .login-graphic {
 
 	height: auto;
+}
+
+.login-logo {
+
+	position: relative;
+	justify-content: center;
+	left: 0;
+	top: 18px;
+	height: 35px;
 }
 
 	}

@@ -16,7 +16,7 @@
 
   <div class = "row">
 <div class = "col-12 col-md-7 login-graphic text-center">
-   <a href="/" class="ml-5"> <img src="/images/SingleLineLogo.png" class = "login-logo mt-3"></a>
+   <a href="/"> <img src="/images/SingleLineLogo.png" class = "login-logo mt-3"></a>
    
 
     
@@ -63,7 +63,7 @@
 <div class = "col-12 col-md-5 mt-5 mb-5 login-text text-center">
   <a href = "/login" class = "btn-purple-outline float-right mt-2 mb-4 mb-md-0"> Login </a>
   <div class = "clear"> </div>
-  <h2 class = "mt-md-5 mb-md-4 mb-4 big-title text-center">Explore this world.</h2>
+  <h2 class = "mt-md-5 mb-md-3 mb-3 big-title text-center">Explore this world.</h2>
   <form method="post">
     @csrf
     <div class="form-group text-left">
